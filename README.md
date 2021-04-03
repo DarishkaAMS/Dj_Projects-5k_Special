@@ -1,2 +1,4 @@
 # Django_Projects-5k_Special
- Python Django project with Git
+Short Python Django project with Git
+ 
+Done with live stream by JimShapedCoding
