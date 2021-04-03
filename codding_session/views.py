@@ -4,4 +4,4 @@ from django.shortcuts import render, HttpResponse
 
 
 def codding_session_page_view(request):
-    return HttpResponse("hello :D")
+    return render(request, template_name='codding_session/all.html')
