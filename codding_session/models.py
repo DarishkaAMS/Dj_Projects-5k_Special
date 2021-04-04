@@ -10,3 +10,6 @@ class CoddingSession(models.Model):
     language = models.CharField(max_length=1024)
     link = models.CharField(max_length=2048)
     starting_time = models.DateTimeField(default=timezone.now, blank=True)
+
+    def __str__(self):
+        return self.name
